@@ -1,0 +1,3 @@
+## About
+goroutine内で発生したpanicはapi middlewareのrecoverによりpanicが拾われない。
+そのため、goroutine内で発生したpanicを拾う共通関数の実装
